@@ -8,7 +8,7 @@ from classes import editar
 sg.theme("DarkAmber")
 
 layout = [
-    [sg.Text("SOFTGEST - Relatory Maker")],
+    [sg.Text("Gesting - Relatory Maker")],
     [sg.Radio("Criar Planilha", "opt", key=1),sg.Radio("Editar Planilha", "opt", key=2, default=True)],
     [sg.Button("Iniciar")]
 ]
