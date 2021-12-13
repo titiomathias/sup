@@ -36,7 +36,7 @@ class Criacao:
             [sg.Button("Pronto", size=15), sg.Button("Sair", size=15), sg.Button("Editar", size=15)]
         ]
 
-        janela = sg.Window("SoftGest - Criar novo Report", layout_criacao)
+        janela = sg.Window("Gesting - Criar novo Report", layout_criacao)
 
         # Estrutura de escolhas entre a forma de uso do programa: enviar dados, modificar modo de uso ou sair do programa.
         while True:
