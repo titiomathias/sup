@@ -8,12 +8,12 @@ from classes import editar
 sg.theme("DarkAmber")
 
 layout = [
-    [sg.Text("Gesting - Relatory Maker")],
+    [sg.Text("Sup - Relatory Maker")],
     [sg.Radio("Criar Planilha", "opt", key=1),sg.Radio("Editar Planilha", "opt", key=2, default=True)],
     [sg.Button("Iniciar")]
 ]
 
-wind = sg.Window("SoftGest - Report Maker", layout)
+wind = sg.Window("Sup - Report Maker", layout)
 
 # Estrutura de escolhas entre a forma de uso do programa: criação ou edição de documento.
 while True:
